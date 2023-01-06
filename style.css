@@ -5,7 +5,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .banner{
-    background-image: url('/images/donation13.jpg');
+    background-image: url('images/donation13.jpg');
     background-size: cover;
     padding: 110px 200px;
     text-align: center;
@@ -22,7 +22,7 @@ body{
     margin-bottom: 30px;
 }
 .btn-primary{
-    background-color: rgb(246, 113, 65);
+    background-color: rgb(255, 93, 34);
     padding: 15px;
     border: 0;
     border-radius: 5px;
@@ -106,9 +106,11 @@ body{
     margin: 100px 100px;
     text-align: left
 }
-
+.article .article-description p{
+    margin: 20px 0;
+}
 .article img{
-    width: 500px;
-    height: 400px;
+    width: 430px;
+    height: 350px;
     border-radius: 5px;
 }
