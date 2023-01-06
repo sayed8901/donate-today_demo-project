@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -9,8 +12,9 @@ body{
     color: white;
 }
 .banner h1{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 1000;
+    margin-bottom: 20px;
 }
 .banner p{
     font-size: 14px;
@@ -18,11 +22,93 @@ body{
     margin-bottom: 30px;
 }
 .btn-primary{
-    background-color: orangered;
+    background-color: rgb(246, 113, 65);
     padding: 15px;
     border: 0;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
     color: white;
+}
+.donation{
+    margin: 100px 100px;
+    text-align: center;
+}
+.section-tittle h1{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+.donation-amount{
+    margin: 50px;
+}
+.btn-donate-tk{
+    background-color: rgb(242, 239, 239);
+    border: 0;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 30px 10px;
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+    font-weight: 600;
+}
+.btn-donate-tk:hover{
+    color: orangered;
+    border: 1px solid orangered;
+    background-color: rgb(251, 228, 218);
+}
+.donate-footer{
+    color: darkgray;
+    padding: 0 160px;
+}
+.donate-footer hr{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.donation-plan{
+    margin: 100px ;
+    text-align: center;
+}
+.section-tittle p{
+    margin: 0 180px;
+    margin-bottom: 10px;
+}
+.section-description{
+    display: flex;
+    margin: 0 auto;
+
+}
+.donation-type{
+    text-align: left;
+    margin: 30px 10px;
+    padding: 50px 20px;
+    border-radius: 5px;
+    font-size:: small
+}
+.donation-type h3{
+    margin: 25px 0;
+    font-weight: bold;
+}
+.a{
+    background-color: rgb(240, 249, 249);
+}
+.b{
+    background-color: rgb(248, 235, 237)
+}
+.c{
+    background-color: rgb(248, 248, 231)
+}
+
+.article{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 100px 100px;
+    text-align: left
+}
+
+.article img{
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
 }
